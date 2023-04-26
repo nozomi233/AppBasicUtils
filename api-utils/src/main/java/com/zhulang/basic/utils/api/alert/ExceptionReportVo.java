@@ -1,10 +1,11 @@
-package com.zhulang.common.common.alert;
+package com.zhulang.basic.utils.api.alert;
 
 import com.zhulang.common.common.alert.util.StackTraceUtils;
 import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.MDC;
-import static com.zhulang.common.common.consts.Constants.*;
+
+import static com.zhulang.basic.utils.api.consts.Constants.*;
 
 /**
  * @Author zhulang

@@ -1,16 +1,16 @@
-package com.zhulang.common.common.alert.aop;
+package com.zhulang.basic.utils.api.alert.aop;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.zhulang.common.common.alert.DefaultExceptionFilter;
-import com.zhulang.common.common.alert.ExceptionAlertService;
-import com.zhulang.common.common.alert.ExceptionFilter;
-import com.zhulang.common.common.alert.MetricsModel;
-import com.zhulang.common.common.alert.aop.annotation.ApiRunTimeLog;
-import com.zhulang.common.common.consts.Constants;
-import com.zhulang.common.common.enums.ResponseCodeEnum;
-import com.zhulang.common.common.exception.*;
+import com.zhulang.basic.utils.api.alert.DefaultExceptionFilter;
+import com.zhulang.basic.utils.api.alert.ExceptionAlertService;
+import com.zhulang.basic.utils.api.alert.ExceptionFilter;
+import com.zhulang.basic.utils.api.alert.MetricsModel;
+import com.zhulang.basic.utils.api.alert.aop.annotation.ApiRunTimeLog;
+import com.zhulang.basic.utils.api.consts.Constants;
+import com.zhulang.basic.utils.api.enums.ResponseCodeEnum;
+import com.zhulang.basic.utils.api.exception.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -59,7 +59,7 @@ public class ApiRunTimeLogAspect {
 
     public static Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
 
-    @Pointcut("@within(com.zhulang.common.common.alert.aop.annotation.ApiRunTimeLog) && execution(public * *(..))")
+    @Pointcut("@within(com.zhulang.basic.utils.api.alert.aop.annotation.ApiRunTimeLog) && execution(public * *(..))")
     public void pointcut() {
     }
 

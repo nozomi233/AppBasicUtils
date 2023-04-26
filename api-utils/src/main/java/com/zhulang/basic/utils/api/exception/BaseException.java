@@ -1,4 +1,4 @@
-package com.zhulang.common.common.exception;
+package com.zhulang.basic.utils.api.exception;
 
 /**
  * 基础异常类

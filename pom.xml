@@ -15,6 +15,7 @@
     <version>${revision}</version>
     <modules>
         <module>api-utils</module>
+        <module>mq-utils</module>
     </modules>
 
     <properties>

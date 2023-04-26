@@ -1,7 +1,7 @@
-package com.zhulang.common.common.alert.aop.annotation;
+package com.zhulang.basic.utils.api.alert.aop.annotation;
 
-import com.zhulang.common.common.alert.ExceptionAlertService;
-import com.zhulang.common.common.alert.aop.ApiRunTimeLogAspect;
+import com.zhulang.basic.utils.api.alert.ExceptionAlertService;
+import com.zhulang.basic.utils.api.alert.aop.ApiRunTimeLogAspect;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

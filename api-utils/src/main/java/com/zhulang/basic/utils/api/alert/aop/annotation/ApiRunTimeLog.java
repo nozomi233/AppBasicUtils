@@ -1,4 +1,4 @@
-package com.zhulang.common.common.alert.aop.annotation;
+package com.zhulang.basic.utils.api.alert.aop.annotation;
 
 /**
  * @Author zhulang

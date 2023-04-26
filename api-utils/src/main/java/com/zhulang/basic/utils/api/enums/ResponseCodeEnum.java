@@ -1,6 +1,6 @@
-package com.zhulang.common.common.enums;
+package com.zhulang.basic.utils.api.enums;
 
-import com.zhulang.common.common.alert.api.IResponseCode;
+import com.zhulang.basic.utils.api.alert.api.IResponseCode;
 import org.apache.commons.lang3.StringUtils;
 
 /**

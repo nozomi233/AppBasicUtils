@@ -1,7 +1,7 @@
-package com.zhulang.common.common.alert.aop;
+package com.zhulang.basic.utils.api.alert.aop;
 
-import com.zhulang.common.common.alert.api.Response;
-import com.zhulang.common.common.exception.BaseException;
+import com.zhulang.basic.utils.api.alert.api.Response;
+import com.zhulang.basic.utils.api.exception.BaseException;
 import lombok.extern.slf4j.Slf4j;
 
 /**

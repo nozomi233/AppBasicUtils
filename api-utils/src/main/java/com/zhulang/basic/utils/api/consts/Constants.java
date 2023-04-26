@@ -1,4 +1,4 @@
-package com.zhulang.common.common.consts;
+package com.zhulang.basic.utils.api.consts;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.LinkedBlockingQueue;

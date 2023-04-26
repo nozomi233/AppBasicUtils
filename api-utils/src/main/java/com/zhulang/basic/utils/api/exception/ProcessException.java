@@ -1,7 +1,7 @@
-package com.zhulang.common.common.exception;
+package com.zhulang.basic.utils.api.exception;
 
-import com.zhulang.common.common.alert.api.IResponseCode;
-import com.zhulang.common.common.consts.Constants;
+import com.zhulang.basic.utils.api.alert.api.IResponseCode;
+import com.zhulang.basic.utils.api.consts.Constants;
 
 /**
  * 流程异常，不会报警

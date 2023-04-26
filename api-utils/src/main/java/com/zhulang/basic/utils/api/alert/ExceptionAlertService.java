@@ -1,8 +1,8 @@
-package com.zhulang.common.common.alert;
+package com.zhulang.basic.utils.api.alert;
 
 import com.alibaba.fastjson.JSON;
 import com.dingtalk.api.request.OapiRobotSendRequest;
-import com.zhulang.common.common.exception.ProcessException;
+import com.zhulang.basic.utils.api.exception.ProcessException;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.extern.slf4j.Slf4j;
@@ -17,7 +17,7 @@ import org.springframework.util.PatternMatchUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.zhulang.common.common.consts.Constants.*;
+import static com.zhulang.basic.utils.api.consts.Constants.*;
 
 /**
  * @Author zhulang
