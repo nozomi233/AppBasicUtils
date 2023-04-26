@@ -29,6 +29,8 @@
         <old.dingtalk.sdk-version>2.0.0</old.dingtalk.sdk-version>
         <spring-aop.version>2.7.3</spring-aop.version>
         <spring-validation.version>2.7.3</spring-validation.version>
+        <kafka-clients.version>3.4.0</kafka-clients.version>
+        <rocketmq-client.version>4.8.0</rocketmq-client.version>
     </properties>
 
 
@@ -41,6 +43,20 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <dependency>
+                <groupId>org.apache.kafka</groupId>
+                <artifactId>kafka-clients</artifactId>
+                <version>${kafka-clients.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client -->
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-client</artifactId>
+                <version>${rocketmq-client.version}</version>
+            </dependency>
+
 
 
             <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
