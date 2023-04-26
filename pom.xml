@@ -16,10 +16,11 @@
     <modules>
         <module>api-utils</module>
         <module>mq-utils</module>
+        <module>common-utils</module>
     </modules>
 
     <properties>
-        <revision>1.0.0-RELEASE</revision>
+        <revision>1.0.1-RELEASE</revision>
         <plugin.flatten.version>1.2.5</plugin.flatten.version>
         <plugin.source.version>3.0.0</plugin.source.version>
         <commons-lang3.version>3.12.0</commons-lang3.version>

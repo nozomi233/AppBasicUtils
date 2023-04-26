@@ -3,6 +3,7 @@ package com.zhulang.basic.utils.api.alert;
 
 import com.alibaba.fastjson.JSON;
 import com.zhulang.basic.utils.api.exception.BaseException;
+import com.zhulang.basic.utils.common.ExceptionFilter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;

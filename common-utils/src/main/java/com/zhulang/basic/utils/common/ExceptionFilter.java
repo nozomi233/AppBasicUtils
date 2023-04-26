@@ -1,10 +1,5 @@
-package com.zhulang.basic.utils.mq;
+package com.zhulang.basic.utils.common;
 
-/**
- * todo zl 重复类
- * @Author zhulang
- * @Date 2023-04-26
- **/
 /**
  * @Author zhulang
  * @Date 2023-04-24

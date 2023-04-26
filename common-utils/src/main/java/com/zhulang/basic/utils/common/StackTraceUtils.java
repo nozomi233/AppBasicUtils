@@ -1,11 +1,11 @@
-package com.zhulang.basic.utils.mq;
+package com.zhulang.basic.utils.common;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
+
 /**
- * todo zl 重复类
  * @Author zhulang
- * @Date 2023-04-26
+ * @Date 2023-04-24
  **/
 public class StackTraceUtils {
     public static String getStackTrace(Exception exception) {
@@ -69,4 +69,3 @@ public class StackTraceUtils {
         return "";
     }
 }
-

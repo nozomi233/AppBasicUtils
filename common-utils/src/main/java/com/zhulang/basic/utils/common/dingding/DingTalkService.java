@@ -1,4 +1,4 @@
-package com.zhulang.basic.utils.api.alert;
+package com.zhulang.basic.utils.common.dingding;
 
 import com.alibaba.fastjson.JSON;
 import com.dingtalk.api.DefaultDingTalkClient;
