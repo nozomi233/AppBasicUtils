@@ -1,7 +1,7 @@
-package com.zhulang.basic.utils.api.exception;
+package com.zhulang.basic.utils.common.exception;
 
-import com.zhulang.basic.utils.api.alert.api.IResponseCode;
 import com.zhulang.basic.utils.common.constants.Constants;
+import com.zhulang.basic.utils.common.response.IResponseCode;
 
 /**
  * 数据库异常

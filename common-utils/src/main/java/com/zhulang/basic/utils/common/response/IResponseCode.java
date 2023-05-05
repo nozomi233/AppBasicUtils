@@ -1,4 +1,4 @@
-package com.zhulang.basic.utils.api.alert.api;
+package com.zhulang.basic.utils.common.response;
 
 /**
  * @Author zhulang

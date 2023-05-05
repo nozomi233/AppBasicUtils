@@ -1,4 +1,4 @@
-package com.zhulang.basic.utils.api.exception;
+package com.zhulang.basic.utils.common.exception;
 
 import java.util.Collection;
 import java.util.Map;

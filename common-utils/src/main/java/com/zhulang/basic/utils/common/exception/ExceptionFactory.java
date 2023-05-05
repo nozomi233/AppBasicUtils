@@ -1,6 +1,6 @@
-package com.zhulang.basic.utils.api.exception;
+package com.zhulang.basic.utils.common.exception;
 
-import com.zhulang.basic.utils.api.alert.api.IResponseCode;
+import com.zhulang.basic.utils.common.response.IResponseCode;
 
 /**
  * @Author zhulang

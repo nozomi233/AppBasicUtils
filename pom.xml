@@ -17,10 +17,12 @@
         <module>api-utils</module>
         <module>mq-utils</module>
         <module>common-utils</module>
+        <module>rpc-utils</module>
     </modules>
 
     <properties>
-        <revision>1.0.1-RELEASE</revision>
+        <revision>1.0.2-SNAPSHOT</revision>
+        <jackson.version>2.12.5</jackson.version>
         <plugin.flatten.version>1.2.5</plugin.flatten.version>
         <plugin.source.version>3.0.0</plugin.source.version>
         <commons-lang3.version>3.12.0</commons-lang3.version>
@@ -49,6 +51,18 @@
                 <groupId>org.apache.kafka</groupId>
                 <artifactId>kafka-clients</artifactId>
                 <version>${kafka-clients.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>30.1.1-jre</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.rholder</groupId>
+                <artifactId>guava-retrying</artifactId>
+                <version>2.0.0</version>
             </dependency>
 
             <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client -->
@@ -101,6 +115,13 @@
                 <artifactId>alibaba-dingtalk-service-sdk</artifactId>
                 <version>${old.dingtalk.sdk-version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+
 
         </dependencies>
 

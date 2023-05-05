@@ -1,6 +1,7 @@
-package com.zhulang.basic.utils.api.alert.api;
+package com.zhulang.basic.utils.common.response;
 
-import com.zhulang.basic.utils.api.enums.ResponseCodeEnum;
+
+import com.zhulang.basic.utils.common.enums.ResponseCodeEnum;
 
 import java.io.Serializable;
 
